@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productos>
+  <producto IdProducto="1">
+    <Categoria>Bebidas Calientes</Categoria>
+    <NombreProducto>Americano</NombreProducto>
+    <Descripcion>shot de espresso de la casa diluido con agua caliente</Descripcion>
+    <Receta>todo lo anterior con toques de la casa </Receta>
+    <Precio>65</Precio>
+    <Foto>archivos/IMG_1853 (2).jpeg</Foto>
+  </producto>
+  <producto IdProducto="2">
+    <Categoria>Comida</Categoria>
+    <NombreProducto>Beagle</NombreProducto>
+    <Descripcion>Pan de queso vegetales frescos ranch carnes frias y queso crema. </Descripcion>
+    <Receta>Todo lo anterior con toques de la casa </Receta>
+    <Precio>105</Precio>
+    <Foto>archivos/IMG_5277 (1).jpeg</Foto>
+  </producto>
+  <producto IdProducto="3">
+    <Categoria>Bebidas Calientes</Categoria>
+    <NombreProducto>Chocolate Mexicano</NombreProducto>
+    <Descripcion>shot de espresso de la casa diluido con agua caliente</Descripcion>
+    <Receta>Todo lo anterior con toques de la casa </Receta>
+    <Precio>85</Precio>
+    <Foto>archivos/IMG_2363 (1).jpeg</Foto>
+  </producto>
+  <producto IdProducto="4">
+    <Categoria>Comida</Categoria>
+    <NombreProducto>Tablas</NombreProducto>
+    <Descripcion>Pan de queso vegetales frescos ranch carnes frias y queso crema. </Descripcion>
+    <Receta>todo lo anterior con toques de la casa </Receta>
+    <Precio>110</Precio>
+    <Foto>archivos/CBE61921-83B9-4600-BB60-C43E50093599 (1).jpeg</Foto>
+  </producto>
+</productos>

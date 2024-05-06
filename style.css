@@ -1,0 +1,243 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sedan:ital@0;1&display=swap');
+nav{
+    background-color: #000000;
+    color: #fff;
+    
+}
+@keyframes circle-in-top-left {
+    from {
+      clip-path: circle(0%);
+    }
+    to {
+      clip-path: circle(150% at top left);
+    }
+  }
+  
+  [transition-style="in:circle:top-left"] {
+    animation: 5.5s cubic-bezier(.25, 1, .30, 1) circle-in-top-left both;
+  }
+footer {
+    flex: 1;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color:#0a0a0a;
+}
+h2{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+h3{
+    text-align: center;
+    font-family: 'Sedan', sans-serif;
+}
+label {
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+form div input {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color:#deb600 ;
+    color: #333;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #deb600;
+    transform: scale(1.08);
+}
+
+span {
+    margin-top: 20px;
+    color: #fff;
+}
+
+#menu {
+    background-color: #161718;
+}
+#menu .navbar-brand img {
+    margin-left: 10px; 
+}
+#menu .navbar-nav .nav-link {
+    color: #ffd001;
+    font-size: 20px;
+    font-family: 'Sedan', sans-serif;
+}
+#menu .navbar-nav {
+    margin-left: auto;
+    margin-right: 80px;
+}
+#menu .navbar-nav .nav-link:hover,
+#menu .navbar-nav .nav-link.active:hover {
+    color: #ffffff;
+    transform: scale(1.2);
+}
+#menu .navbar-toggler {
+    border-color: #007bff; 
+}
+#menu .dropdown-menu {
+    background-color: #f8f9fa; 
+}
+#menu .dropdown-menu .dropdown-item {
+    color: #212529; 
+}
+#menu .dropdown-menu .dropdown-item:hover {
+    background-color: #dee2e6; 
+}
+#principal {
+    background-image: url(imagenes/pexels-valeriia-miller-2642842.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 760px;
+    color:#dee2e6;
+}
+
+#contactar {
+    font-size: 20px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#producto {
+    background-image: url(imagenes/CBE61921-83B9-4600-BB60-C43E50093599\ \(1\).jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: 760px;
+    color: #dee2e6;
+}
+#ubicacion iframe {
+    width: 100%;
+    height: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+div .text-start{
+    margin-top: 100px;
+}
+.redes {
+    margin-top: 20px;
+    padding: 0;
+    height: 380px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.redesSociales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    margin-top: 80px;
+    align-content: center;
+}
+.redesSociales a:hover{
+    transform: scale(1.1);
+}
+
+.redesSociales a {
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.redesSociales i {
+    margin-right: 10px;
+}
+
+.redesSociales p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.contactar {
+    font-size: 20px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ubicacion {
+    background: #fff;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    justify-content: center;    
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.733);
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100px;
+    max-height: 300px;
+}
+.ubicacion:hover{
+    transform: scale(1.1)
+}
+
+.ubicacion h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 40px;
+    margin-top: 0;
+    color: #333;
+    
+}
+
+.ubicacion iframe {
+    width: 100%;
+    height: 250px;
+}
+
+.seccion {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  
+}
+.box {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

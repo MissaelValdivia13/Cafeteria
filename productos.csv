@@ -1,0 +1,5 @@
+IdProducto, Categoria, NombreProducto, Descripcion, Receta, Precio, Foto
+1, 'Bebidas Calientes', 'Americano', 'shot de espresso de la casa diluido con agua caliente', 'todo lo anterior con toques de la casa ', 65, 'archivos/IMG_1853 (2).jpeg'
+2, 'Comida', 'Beagle', 'Pan de queso vegetales frescos ranch carnes frias y queso crema. ', 'Todo lo anterior con toques de la casa ', 105, 'archivos/IMG_5277 (1).jpeg'
+3, 'Bebidas Calientes', 'Chocolate Mexicano', 'shot de espresso de la casa diluido con agua caliente', 'Todo lo anterior con toques de la casa ', 85, 'archivos/IMG_2363 (1).jpeg'
+4, 'Comida', 'Tablas', 'Pan de queso vegetales frescos ranch carnes frias y queso crema. ', 'todo lo anterior con toques de la casa ', 110, 'archivos/CBE61921-83B9-4600-BB60-C43E50093599 (1).jpeg'
