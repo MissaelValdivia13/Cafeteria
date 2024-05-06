@@ -36,6 +36,9 @@
                   <li class="nav-item">
                     <a class="nav-link" href="registrar.html">Registrar</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="registrar.html">Actualizacion UwU</a>
+                  </li>
               </li>
             </ul>
           </div>
